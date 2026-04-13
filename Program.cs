@@ -20,7 +20,7 @@ namespace PoePart1._1
             // ... rest of the code
 
             // Q1: Voice Greeting
-           
+            SpeechSynthesizer voice = new SpeechSynthesizer();
             
             voice.Speak("Hello, welcome to the cybersecurity Awareness bot.I am here to help you stay safe online");
             SoundPlayer speech = new SoundPlayer("C:\\Users\\Student\\source\\repos\\PoePart1.1\\PoePart1.1\\greeting intro.wav");
